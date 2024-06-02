@@ -94,14 +94,13 @@ https://www.googleapis.com/books/v1/volumes?q=検索語句
 ※このほか、詳しくは[公式ドキュメント](https://developers.google.com/books)を参考にしてください。
 
 
-
 ## E. Amazon Product Advertising API (PA-API)
 
 Amazon APIは、Amazonの機能を他のアプリケーションやサービスで利用できるようにするための手段を提供します。APIは、プログラムが互いにコミュニケーションを取り、機能を統合することを容易にするための重要な技術です。
 
 物販に活用できるAmazon APIは、大きく次の2種類に分けることができます。
 
-## Amazon Product Advertising API
+### Amazon Product Advertising API
 
 Amazon Product Advertising APIは、アフィリエイトによる商品リンクや広告の実装を支援するAPIです。このAPIを使うことで、自社サイトやアプリ内にAmazonの商品画像や情報、価格比較機能を組み込めます。
 
