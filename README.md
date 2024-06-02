@@ -1,6 +1,6 @@
 # 書誌情報を検索できるサービス・APIs
 
-## 出版書誌データベース
+## A. 出版書誌データベース
 
 - https://www.books.or.jp
 
@@ -12,7 +12,7 @@
 - 担当： 浜崎・米津
 - Email： info-books@jpo-center.jp
 
-## 国会図書館
+## B. 国会図書館
 
 - https://www.ndl.go.jp/
 - https://ndlsearch.ndl.go.jp/ 
@@ -21,7 +21,7 @@
   - 書影API (https://ndlsearch.ndl.go.jp/thumbnail/[isbn].jpg)
 
 
-## Google Books
+## C. Google Books
 
 - https://books.google.co.jp/
 
