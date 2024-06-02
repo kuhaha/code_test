@@ -87,21 +87,13 @@ https://www.googleapis.com/books/v1/volumes?q=検索語句
 ```
 
 設定できる項目の中で、主に利用するものをまとめました。
-----------------------
-項目名	    | 絞り込み条件
------------------------
-`intitle`:  |	タイトル
------------------------
-`inauthor`: |	著者名
------------------------
-`isbn`:	     | ISBN10もしくはISBN13（どちらでも可）
------------------------
+- `intitle`: 	タイトル
+- `inauthor`: 	著者名
+- `isbn`:	ISBN10もしくはISBN13（どちらでも可）
 
-※このほか、詳しくは公式ドキュメントを参考にしてください。
-```php
+※このほか、詳しくは[公式ドキュメント](https://developers.google.com/books)を参考にしてください。
 
 
-```
 
 ## E. Amazon Product Advertising API (PA-API)
 
