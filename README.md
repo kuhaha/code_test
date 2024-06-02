@@ -80,8 +80,8 @@ ISBN10 / ISBN13
 ```
 
 このAPIを利用するには楽天やAmazonのAPIと違って認証が必要なく、誰でも簡単に利用できます。
-
 APIで情報を入手するには、基本的にURLの最後のq=以降に条件となるテキストを入れます。
+
 ```
 https://www.googleapis.com/books/v1/volumes?q=検索語句
 ```
