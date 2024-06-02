@@ -20,7 +20,7 @@
   - 検索API（SRU,OpeSearch,OpenURL,OAI-PMH） 
   - 書影API (https://ndlsearch.ndl.go.jp/thumbnail/[isbn].jpg)
 
-## C. opebBD, 書誌情報・書影を自由に
+## C. openBD: 書誌情報・書影を自由に
 
 - https://openbd.jp/
 - API: https://api.openbd.jp/v1/get?isbn=[isbn][&pretty]
