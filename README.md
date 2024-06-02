@@ -125,3 +125,5 @@ Amazon Marketplace Web Service(MWS) APIは、Amazonマーケットプレイス�
 
 # 参考
 1. 書籍検索に使える登録不要APIちゃんはちょっと足りない, https://qiita.com/khsk/items/9679f16b7bf6bfac9c2a
+
+2. PHPScraper, https://github.com/spekulatius/PHPScraper
