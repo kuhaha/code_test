@@ -95,6 +95,66 @@ https://www.googleapis.com/books/v1/volumes?q=検索語句
 
 ※このほか、詳しくは[公式ドキュメント](https://developers.google.com/books)を参考にしてください。
 
+```
+kind:
+totalItems:
+Items:
+  [
+    kind:
+    id:
+    etag:
+    selfLink:
+    volumeInfo:
+      title:
+      authors:
+        []
+      publisher:
+      publishedDate:
+      description:
+      industryIndentifiers:
+        [
+          type: "ISBN_10"
+          identifier:
+        ],
+        [
+          type: "ISBN_13"
+          identifier:
+        ],
+      readingMode:
+      pageCount:
+      printType:
+      categories:
+        []
+      maturityRating:
+      allowAnonLogging:
+      panelizationSummmary:
+      imageLinks:
+        smallThumnail:
+        thumnail:
+      language:
+      previewLink:
+      canonicalVolumeLink:
+      saleInfo:
+        country:
+        saleability:
+        isEbook:
+        listPrice:
+          amount:
+          currencyCode: JPY
+        retailPrice:
+          amount:
+          currencyCode: JPY
+        buyLink:
+        offers:
+      accessInfo:
+        country:
+        viewability:
+  ],    
+  [
+
+  ]
+  
+```
 
 ## E. Amazon Product Advertising API (PA-API)
 
