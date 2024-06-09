@@ -6,21 +6,16 @@
 <body>
 <?php
 
-// 検索条件を配列にする
-$params = array(
-  '9784802614443', // ISBN 13
-  '4802614446', // ISBN 10
-  '9784274067815',
-);
+//$isbn =  '9784802614443'; // ISBN 13
+//$isbn =    '4802614446'; // ISBN 10
+$isbn =    '9784274067815';
 
 // APIの基本になるURL
-$base_url = 'https://api.openbd.jp/v1/get?isbn=';
-$url = $base_url . $params[1];
+$url = 'https://api.openbd.jp/v1/get?isbn=' . $isbn;
 // 書籍情報を取得
 $json = file_get_contents($url);
-// デコード（objectに変換）
+// デコード（連想配列に変換）
 $data = json_decode($json, true);
-
 echo '<pre>';
 print_r($data);
 echo '</pre>';
