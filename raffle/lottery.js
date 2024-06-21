@@ -22,6 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     function animateWinner(winner) {
         let count = 0;
+        winnerDisplay.style.color= 'blue';
         const interval = setInterval(() => {
             winnerDisplay.textContent = participants[count];
             count = (count + 1) % participants.length;
@@ -31,6 +32,7 @@ document.addEventListener("DOMContentLoaded", () => {
         setTimeout(() => {
             clearInterval(interval);
             winnerDisplay.textContent = `${winner}`;
+            winnerDisplay.style.color= 'red';
             lotteryButton.disabled = false; // ボタンを有効にする
         }, 3000);
     }
