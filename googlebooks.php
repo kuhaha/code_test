@@ -61,7 +61,7 @@
 
 <?php
 echo '<pre>';
-var_dump($books);
+var_dump($json);
 echo '</pre>';
 ?>
 
